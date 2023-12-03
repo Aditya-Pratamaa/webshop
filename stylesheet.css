@@ -639,4 +639,99 @@ section .icons .info {
         font-size: 3rem;
     }
 
+    .about h1 {
+        width: 91%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .about .row .vidio-container video {
+        width: 90%;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+    .about .row .vidio-container video h3 {
+        margin-left: 1rem;
+        padding-right: 5rem;
+        padding-left: 1rem;
+    }
+
+    .about .row .content {
+        width: 91%;
+        padding-left: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .icons-container {  
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+
+    .products h1 {
+        width: 91%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .products .box-container .box {
+        width: 95%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .products .box-container .box .image {
+       display: flex;
+    }
+
+    .review h1 {
+        width: 91%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .review .box-container .box {
+        width: 100%;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+    
+    .contact h1 {
+        width: 91%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contact .row .image img {
+        width: 91%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contact .row form {
+        width: 500px;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+
+    /* .contact .row form .box {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    } */
+
+    .contact .row form textarea {
+        width: 91%;
+        margin-left: 2rem;
+        
+    }
+
+    .products .box-container .box .image .cart-btn {
+        font-size: 5px;
+        display: flex;
+        text-align: center;
+        width: 90%;
+        margin-left: 0;
+    }
+
 }
