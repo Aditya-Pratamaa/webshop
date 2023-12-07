@@ -37,6 +37,19 @@ section {
     color: var(--pink);
 }
 
+.head {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+
+.head span {
+    color: var(--pink);
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -312,7 +325,7 @@ section .icons .info {
 }
 
 .products .box-container .box:hover .image img {
-    transform: scale(1.1);
+    transform: scale(1.1)
 }
 
 .products .box-container .box .image .icons {
@@ -731,7 +744,19 @@ section .icons .info {
         display: flex;
         text-align: center;
         width: 90%;
-        margin-left: 0;
+        margin: 0;
     }
+
+    .footer .box-container .box {
+        width: 100%;
+        margin-left: 4rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+    footer .box-container .credit {
+        text-align: center;
+    }
+
 
 }
