@@ -127,7 +127,7 @@ header .fa-bars {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(../img-shop/home-bg.jpeg) no-repeat;
+    background: url(img-shop/home-bg.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -316,12 +316,14 @@ section .icons .info {
 .products .box-container .box .image {
     position: relative;
     text-align: center;
+    object-fit: cover;
     padding-top: 2rem;
     overflow: hidden;
 }
 
 .products .box-container .box .image img {
     height: 30rem;
+    object-fit: cover;
 }
 
 .products .box-container .box:hover .image img {
